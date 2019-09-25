@@ -19,5 +19,6 @@ def assign_rooms(name_array)
 end   
 
 def printer(name_array)
-  assign_rooms(name_array).
+  assign_rooms(name_array).each do |name|
+    puts name 
 end   
